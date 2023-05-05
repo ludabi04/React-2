@@ -1,3 +1,5 @@
+import Clase4 from "./Clase-4/Clase4";
+
 const Main = () => {
     return (
         <div className="container-fluid">
@@ -22,6 +24,9 @@ const Main = () => {
                         </button>
                     </div>
                 </div>
+            </div>
+            <div>
+                <Clase4 />
             </div>
         </div>
     )
