@@ -1,4 +1,7 @@
 import Clase4 from "./Clase-4/Clase4";
+import Clase5 from "./Clase-5/Clase-5";
+import Efectos from "./Clase-5/Efectos";
+import Efectos2 from "./Clase-5/Efectos2";
 
 const Main = () => {
     return (
@@ -27,6 +30,15 @@ const Main = () => {
             </div>
             <div>
                 <Clase4 />
+            </div>
+            <div>
+                <Clase5 />
+            </div>
+            <div>
+                <Efectos />
+            </div>
+            <div>
+                <Efectos2 />
             </div>
         </div>
     )
