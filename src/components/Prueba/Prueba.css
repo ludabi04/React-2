@@ -1,0 +1,23 @@
+.carritoImg {
+    width: 20%;
+    position: absolute;
+    right: 0px
+}
+.contenedorCarrito {
+  position: relative;
+  display: inline-block;
+  
+}
+
+
+
+.contadorCarrito {
+  position: relative;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}

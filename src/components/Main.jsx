@@ -2,10 +2,14 @@ import Clase4 from "./Clase-4/Clase4";
 import Clase5 from "./Clase-5/Clase-5";
 import Efectos from "./Clase-5/Efectos";
 import Efectos2 from "./Clase-5/Efectos2";
+import Prueba from "./Prueba/Prueba";
 
 const Main = () => {
     return (
-        <div className="container-fluid">
+
+        
+        <div className="container-fluid main">
+            <Prueba />
             <div className="row">
                 <div className="col-md-6 offset-md-3">
                     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">

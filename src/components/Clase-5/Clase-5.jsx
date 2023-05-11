@@ -22,7 +22,7 @@ const Clase5 = () => {
     }
  
     const saludar = () => {
-        alert('Soy una alerta incorporada')
+        alert('Soy un saludo')
     }
     return (
         <div>

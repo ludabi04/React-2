@@ -1,11 +1,24 @@
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   padding: 20px;
   background-color: black;
+  color: wheat;
+}
+
+.oscuro {
+  background-color: black;
+  color: white;
 }
 
 .main {
-  padding: 40px;
+  margin-top: 10px;
   color: grey;
+}
+
+.hola {
+  background-color: black;
 }
 
 .footer {
