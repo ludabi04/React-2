@@ -3,12 +3,19 @@ import Clase5 from "./Clase-5/Clase-5";
 import Efectos from "./Clase-5/Efectos";
 import Efectos2 from "./Clase-5/Efectos2";
 import Prueba from "./Prueba/Prueba";
+import Promesas from "./Clase-6/Clase-6";
+import EjemploPromesa from "./Clase-6/ejemploPromesas";
+import Cards from "./Clase-6/pruebaCards";
+
 
 const Main = () => {
     return (
 
         
         <div className="container-fluid main">
+            <div>
+                <Cards />
+            </div>
             <Prueba />
             <div className="row">
                 <div className="col-md-6 offset-md-3">
@@ -44,6 +51,14 @@ const Main = () => {
             <div>
                 <Efectos2 />
             </div>
+            <div>
+                <Promesas/>
+            </div>
+            <div>
+                <EjemploPromesa/>
+            </div>
+           
+
         </div>
     )
 }

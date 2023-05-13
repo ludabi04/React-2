@@ -2,7 +2,8 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Main from './components/Main';
 import './App.css';
-
+import Prueba from './components/Prueba/Prueba';
+import { useRef } from 'react';
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      
       <Footer />
     </div>
   );

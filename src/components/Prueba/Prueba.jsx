@@ -24,15 +24,18 @@ const Prueba = () => {
         setSumarTodo(contador + contador1)
     }
 
+    useEffect(() => { console.log("Usando UseEfect") }, [contador]);
+
     useEffect(() => {
         setMensaje('se agrego el item' + sumarTodo)
-    }, [sumarTodo])
+    }, [])
     
     const valor = useRef(null);
 
     const modificarTexto = () => {
         valor.current.innerHTML = "soy nuevo titulo";
         valor.current.className = "bg-dark";
+        valor.current.onClick = sumarFinal;
     }
 
     return (
@@ -41,7 +44,7 @@ const Prueba = () => {
             <p ref={ valor }>contador general : { contador }</p>
             <button onClick={ restar }> - </button>
             <br></br>
-            <button onClick={ sumarFinal }>Agregar </button>
+            <button onClick={ modificarTexto } ref={valor}>Agregar </button>
             <br></br>
             <button onClick={ sumar1 }> + </button>
             <p ref={ valor }>contador general : { contador1 }</p>
